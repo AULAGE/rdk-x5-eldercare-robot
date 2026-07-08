@@ -1,0 +1,27 @@
+# ===== Keil MDK 编译产物与本地配置 =====
+Obj/
+OBJ/
+Listings/
+Objects/
+DebugConfig/
+*.uvguix.*
+*.uvgui.*
+*.bak
+*.dep
+*.lnk
+*.scvd
+JLinkLog.txt
+JLinkSettings.ini
+
+# ===== ROS 2 / colcon 编译产物 =====
+build/
+install/
+log/
+__pycache__/
+*.pyc
+
+# ===== 系统与临时文件 =====
+Thumbs.db
+Desktop.ini
+*.tmp
+~$*
